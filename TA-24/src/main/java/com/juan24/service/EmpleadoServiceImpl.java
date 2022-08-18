@@ -14,7 +14,7 @@ public class EmpleadoServiceImpl implements IempleadoService{
 	
 	@Autowired
 	IempleadoDAO iempleadoDAO;
-	
+	@Override
 	public List<Empleado> listarEmpleados(){
 		return iempleadoDAO.findAll();
 	}
@@ -27,7 +27,7 @@ public class EmpleadoServiceImpl implements IempleadoService{
 	}
 
 	@Override
-	public Empleado empleadosPorId(Long Id) {
+	public  Empleado empleadosPorId(Long Id) {
 		return iempleadoDAO.findById(Id).get();
 	}
 
