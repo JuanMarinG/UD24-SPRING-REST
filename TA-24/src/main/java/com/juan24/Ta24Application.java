@@ -1,4 +1,4 @@
-package com.juan4;
+package com.juan24;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

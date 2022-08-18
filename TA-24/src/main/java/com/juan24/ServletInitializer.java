@@ -1,4 +1,4 @@
-package com.juan4;
+package com.juan24;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
