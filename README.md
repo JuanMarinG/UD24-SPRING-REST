@@ -1,2 +1,10 @@
 # UD24-SPRING-REST
-Ejercicio UD 24
+
+### URIs Endpoints
+```
+Empleados
+GET       /api/empleados
+POST      /api/empleados
+GET       /api/empleado/{id}
+PUT       /api/empleado/{id}
+DELETE    /api/empleado/{id}
